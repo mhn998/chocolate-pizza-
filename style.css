@@ -1,3 +1,7 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Oswald:wght@600;700&display=swap");
+
 div {
     display:block;
     
@@ -7,15 +11,18 @@ div {
     margin: 0 auto; ;
 }
 
-header {
+.border {
     clear:both;
+    border: 13px solid;
+    border-width: 0px 0px 13px;
+    border-image: url(images/line.png) 0 0 13 fill repeat;
+    margin: -25px 0;
 }
 
 
 .sub-box {
     clear:both;
     display:block;
-    margin: 20px auto;
 }
 
 
@@ -27,22 +34,35 @@ nav a:hover {
     font-family: 'Yellowtail', cursive;
     font-size: 48px;
     display: inline;
+    margin: -68px 10px 0 0;
+    float: right;
 }
 
 .under-special {
-   margin-left: 40px;
-   margin-top: -10px;
+   margin-left: 50px;
+   margin-top: -15px;
    font-size: .6em;
    font-weight: 300;
 }
 
 .left-section {
     float:left;
+    margin: 0 auto;
 }
+
+.logo {
+    margin-top: 30px;
+}
+
+nav a img {
+    width:26px;
+    height:26px;
+}
+
 
 .right-section {
     float:right;
-    padding: 20px;
+    padding: 40px 0;
 }
 
 main {
@@ -51,22 +71,22 @@ main {
 
 .title {
     clear:both;
-    padding-top:50px;
 }
 
 .title h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight:700;
     font-size:40px;
-    border-top: 12px gray solid;
-    padding-top:30px;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 .title h2 {
-    font-size:.8em;
+    font-size:14px;
     font-weight:300;
-    margin-top:-30px;
+    margin-top:-42px;
     color:thistle;
+    margin-bottom: 40px;
+    font-family: 'Abel', sans-serif;
 }
 
 
@@ -122,6 +142,13 @@ input{
     cursor: pointer;
 }
 
+.border2 {
+    clear:both;
+    border: 13px solid;
+    border-width: 0px 0px 13px;
+    border-image: url(images/line.png) 0 0 13 fill repeat;
+}
+
 .before-footer {
     margin-top:30px;
     display: flex;
@@ -143,6 +170,7 @@ input{
     font-size:1em;
     font-weight: 400;
     font-family: cursive;
+    color:gray;
 }
 
 .before-footer img {
@@ -155,7 +183,7 @@ input{
 button {
     border:none;
     background-color:#BC7058;
-    margin-top: 30px;
+    margin-top: 40px;
     width:80px;
     flex: 0 1 160px;
     margin-bottom: 50px;
